@@ -28,10 +28,12 @@ namespace demoOrAndAnd
                 if (quantity < LOW_QUANTITY)
                 {
                     Console.WriteLine("The delivery is free");
+                    Console.ReadLine();
                 }
                 else
                 {
                     Console.WriteLine("There will be a charge of {0} ", fee);
+                    Console.ReadLine();
                 }
         }
     }
