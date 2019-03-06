@@ -17,7 +17,7 @@ namespace demoOrAndAnd
             double fee = 25.75;
             int quantity;
             int deliveryZone;
-            Console.WriteLine("Delivery is free for zone {0} and zone {1} when the quanity ordered is less then {2} ", zone1, zone2, lowQuantity);
+            Console.WriteLine("Delivery is free for zone {0} and zone {1} when the quanity ordered is less then {2} ", ZONE1, ZONE2, LOW_QUANTITY);
             Console.Write("Please enter the delivery zone: ");
             inputString = Console.ReadLine();
             deliveryZone = Convert.ToInt32(inputString);
